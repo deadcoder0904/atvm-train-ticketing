@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(atvm.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4.5em;
+	color: rgba(124,214,231, 1);
+	font-family: 'Verdana';
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+	text-shadow: 0.1em 0.1em 0.2em rgba(44,0,223,0.8);
+}
+
+#inputSection, #buttonSection {
+	margin-top: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+button {
+	cursor: pointer;
+	padding: 0.7em;
+	margin: 1em 0;
+	font-size: 2em;
+	color: gray;
+	background: white;
+	outline: none;
+	border-radius: 0.3em;
+	border-style: dotted;
+	border-color:  #123456;
+	transform: scale(0.9);
+	transition: all 500ms;
+}
+
+button:hover {
+	color: black;
+	background: gray;
+	transform: scale(1);
+}
+
+::-webkit-input-placeholder {
+	color: white;
+}
+
+input {
+	text-align: center;
+    font-family: cursive;
+    padding: 0.5em;
+    margin: 1.5em;
+    width: 30em;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 1.2;
+    color: red;
+    border: none;
+    border-bottom: 5px solid red;
+    background:rgba(25, 22, 22, 0.87);
+    outline: none;
+    box-shadow: 0.1em 0.1em 0.3em #fff;
+	text-transform: uppercase;
+}
+
+#inputSection .awesomplete > ul > li {
+	padding: 1em;
+}
