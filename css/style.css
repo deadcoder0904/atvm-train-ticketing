@@ -5,18 +5,18 @@
 }
 
 body {
-	background: url(atvm.jpeg) no-repeat center center fixed;
+	background: url(pattern.png) no-repeat center center fixed;
 	background-size: cover;
 }
 
 h1 {
 	text-align: center;
 	font-size: 4.5em;
-	color: rgba(124,214,231, 1);
+	color: #123456;
 	font-family: 'Verdana';
 	letter-spacing: 0.1em;
 	font-weight: bolder;
-	text-shadow: 0.1em 0.1em 0.2em rgba(44,0,223,0.8);
+	text-shadow: 0.1em 0.1em 0.5em rgba(0,0,3,0.8);
 }
 
 #inputSection, #buttonSection {
