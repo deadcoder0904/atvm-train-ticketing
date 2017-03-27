@@ -2,7 +2,7 @@
 
 # Screenshot
 
-![atvm-train-ticketing](http://imgur.com/aJOZDxD.png)
+![atvm-train-ticketing](http://imgur.com/nBznoST.png)
 
 ## License
 

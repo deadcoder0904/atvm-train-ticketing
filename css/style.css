@@ -73,3 +73,10 @@ input {
 #inputSection .awesomplete > ul > li {
 	padding: 1em;
 }
+
+#currentStation {
+	color: white;
+	font-size: 3em;
+	background-color: #123456;
+	padding: 0.2em;
+}
